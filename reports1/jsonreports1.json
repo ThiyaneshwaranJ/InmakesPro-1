@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "The project of creation of  new account in FB",
+        "description": "",
+        "id": "to-register-and-validate-the-login-of-facebook-application;the-project-of-creation-of--new-account-in-fb",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8087112500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enduser has to launch the chrome browser and maximize the window",
+            "match": {
+              "location": "test.enduser_has_to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4564850400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enduser has to launch the url of facebook application",
+            "match": {
+              "location": "test.enduser_has_to_launch_the_url_of_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 416632000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enduser has to click the create new account button",
+            "match": {
+              "location": "test.enduser_has_to_click_the_create_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3341420300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enduser has to enter the firstname in firstname box",
+            "match": {
+              "location": "test.enduser_has_to_enter_the_firstname_in_firstname_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "inmakes"
+                ]
+              },
+              {
+                "cells": [
+                  "secondname",
+                  "framework"
+                ]
+              },
+              {
+                "cells": [
+                  "thirdname",
+                  "datadriven"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272047500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the Surname in Surname box",
+            "match": {
+              "location": "test.enter_the_Surname_in_Surname_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 617691400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enduser has to enter the mobileno or email in that textbox",
+            "match": {
+              "location": "test.enduser_has_to_enter_the_mobileno_or_email_in_that_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497806100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enduser has to enter the new password in new password box",
+            "match": {
+              "location": "test.enduser_has_to_enter_the_new_password_in_new_password_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password",
+                  "password1",
+                  "password2",
+                  "password3"
+                ]
+              },
+              {
+                "cells": [
+                  "testng",
+                  "datadriven",
+                  "junit",
+                  "sql"
+                ]
+              },
+              {
+                "cells": [
+                  "jira",
+                  "tcp",
+                  "vtam",
+                  "cics"
+                ]
+              },
+              {
+                "cells": [
+                  "jcl",
+                  "jes",
+                  "ipl",
+                  "parmlib"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enduser has to close the chrome browser",
+            "match": {
+              "location": "test.enduser_has_to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Register and validate the login of facebook application",
+    "description": "",
+    "id": "to-register-and-validate-the-login-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/reportpurpose.feature",
+    "tags": []
+  }
+]
